@@ -44,7 +44,7 @@ The backend API is built using FastAPI and is located in the `api-backend/api-ba
     ```
 3.  **Install dependencies:**
     ```bash
-    pip install fastapi uvicorn transformers pydantic groq python-dotenv
+    pip install -r requirements.txt
     ```
 4.  **Set your Groq API key:**
     * Create a `.env` file in the `api-backend` directory.
